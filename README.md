@@ -33,7 +33,26 @@ This project is a comprehensive analysis tool for football matches using state-o
 
 ## Installation and Setup
 
-1. Clone the repository:  
+Take the following steps:  
    ```bash
    git clone https://github.com/sahilnayak7702/Football-Analysis-ComputerVision.git
    cd Football-Analysis-ComputerVision
+   pip install -r requirements.txt
+   # Place your football match video in the input_videos/ directory.
+   python main.py --input input_videos/match.mp4 --output output_videos/analysis.mp4
+   ```
+
+## Key Concepts and Techniques
+1. **Object Detection**: YOLOv8 identifies and locates players, referees, and the ball in each frame.
+
+2. **Color Segmentation**:Differentiates team players by analyzing uniform colors.
+   
+3. **Kalman Filtering**:Smoothens object tracking by predicting positions in subsequent frames.
+
+
+4. **Perspective Transformation**: This method maps the video feed to a consistent top-down view of the football field for accurate analysis.
+
+5. **Video Processing**: Analyzes each frame in the video to seamlessly overlay detection and tracking information.
+
+
+
