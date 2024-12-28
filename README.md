@@ -26,10 +26,11 @@ This project is a comprehensive analysis tool for football matches using state-o
 
 ## Technologies Used
 
-- **YOLOv8**: Advanced real-time object detection for identifying key elements in the video.  
-- **OpenCV**: A powerful library for image and video processing tasks.  
-- **Python**: The primary language for implementing the analysis pipeline.  
-- **NumPy**: For numerical operations and data handling.  
+- **YOLO**: AI object detection model
+- **Kmeans**: Pixel segmentation and clustering to detect t-shirt color
+- **Optical Flow**: Measure camera movement
+- **Perspective Transformation**: Represent scene depth and perspective
+- Speed and distance calculation per player
 
 ## Installation and Setup
 
